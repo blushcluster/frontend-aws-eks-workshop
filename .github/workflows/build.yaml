@@ -57,7 +57,7 @@ jobs:
       - name: Checkout kustomize repository
         uses: actions/checkout@v2
         with:
-          repository: /k8s-manifest-repo
+          repository: blushcluster/k8s-manifest-eks-workshop
           ref: main
           token: ${{ secrets.ACTION_TOKEN }}
           path: k8s-manifest-repo
